@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="../js/script.js" defer></script>
+</head>
+<body>
+    <!-- Main container -->
+    <div class="container">
+        <h1>Weather Information</h1>
+        <!-- Button to display student info -->
+        <button id="display-student-info">Show Student Info</button>
+        <!-- Student information section -->
+        <div id="student-info" style="display: none;">
+            <p id="student-id">Student ID: </p>
+            <p id="student-name">Name: </p>
+        </div>
+        <!-- Weather information section -->
+        <div id="weather-info" class="weather-info">
+            <p>Loading weather information...</p>
+        </div>
+        <!-- Link to documentation -->
+        <p class="documentation-link">Explore <a href="https://openweathermap.org/api">OpenWeatherMap API</a> for more details.</p>
+        <!-- Instructions -->
+        <!--
+            To obtain an API key, sign up on OpenWeatherMap and generate your unique key in the API section.
+            Connect: Utilize the API base URL https://api.openweathermap.org/data/2.5/ and append your API key to make requests.
+            Request data:
